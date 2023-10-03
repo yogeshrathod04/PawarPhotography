@@ -10,6 +10,7 @@
             crossorigin="anonymous"></script>
         <link rel="stylesheet"
             href="simplelightbox-master/dist/simple-lightbox.css">
+            <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
 
         <!-- <link rel="stylesheet" href="cate.css"> -->
 
@@ -35,6 +36,7 @@
                         <li><a href="gallery.html" class="active">Gallery</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
                     </ul>
                 </nav>
                 <span class="search-icon">
@@ -45,9 +47,9 @@
             <div class="container about">
                 <div class="about-content">
                     <div class="about-img flex">
-                        <img src="logo.jfif" alt="photographer img">
+                        <img src="logo.jfif" height alt="photographer img" />
                     </div>
-                    <h2>I'm Mangesh</h2>
+                    <h2>I'm Ak <span id="typeee"></span></h2>
                     <h3>Graphics | Photography</h3>
                     <blockquote>
                         "Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever ... It remembers little things, long after you have forgotten everything."
@@ -626,6 +628,12 @@
         <script src="simplelightbox-master/dist/simple-lightbox.js"></script>
 
         <script src="script.js"></script>
+        <script>
+            var typed = new Typed("#typeee", {
+            strings: ["Mangesh", "Pawar" , "Graphics Designer" , "Photograper" , "Photo Editor", "Mangesh"],
+            typeSpeed: 100,
+        });
+    </script>
 
     </body>
 </html>
